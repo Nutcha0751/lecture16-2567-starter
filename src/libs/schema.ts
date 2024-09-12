@@ -3,13 +3,16 @@ import { z } from "zod";
 const zStudentId = z
   .string()
   .length(9, { message: "Student Id must contain 9 characters" });
-const zFirstName = z
+
+  const zFirstName = z
   .string()
   .min(3, { message: "First name requires at least 3 charaters" });
-const zLastName = z
+
+  const zLastName = z
   .string()
   .min(3, { message: "Last name requires at least 3 characters" });
-const zProgram = z.enum(["CPE", "ISNE"], {
+
+  const zProgram = z.enum(["CPE", "ISNE"], { //เช็คว่าป็น string 2 ตัวนี้เท่านั้น
   errorMap: () => ({
     message: "Program must be either CPE or ISNE",
   }),
