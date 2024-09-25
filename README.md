@@ -25,4 +25,5 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-เข้าใจ Await / Async ใน 5 นาที : https://www.borntodev.com/2020/03/06/เข้าใจ-await-async-ใน-5-นาที/
+- เข้าใจ Await / Async ใน 5 นาที : https://www.borntodev.com/2020/03/06/เข้าใจ-await-async-ใน-5-นาที/
+- .map(), .filter() และ .reduce() : https://www.shorturl.asia/sUcbj
