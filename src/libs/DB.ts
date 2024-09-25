@@ -1,4 +1,4 @@
-export const DB = {
+export const DB = { //DB เป็น object ที่ทำหน้าที่เป็น data base
     students: [
       {
         studentId: "660610001",
